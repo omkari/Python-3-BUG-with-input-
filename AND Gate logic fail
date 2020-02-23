@@ -1,0 +1,24 @@
+# and this following AND Gate PROGRAM gives output as "False" irrespective of the value given (bcoz of Input) 
+
+A = input ('input logic of A')
+B = input ('input logic of B')
+
+def AND2(A,B):
+    if A == True and B == True :
+        return True
+    else: 
+        return False
+
+print('The output of the AND Gate is ' , AND2(A,B))
+
+# this following AND Gate program exicuted the logic correctly
+
+a = True
+b = True
+def AND1(a,b):
+    if a == True and b == True :
+        return True
+    else: 
+        return False
+
+print ('The output of the AND Gate is ' ,AND1(a,b))
